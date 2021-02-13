@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.jms.artemis.ArtemisAutoConfigurati
 /**
  * Created by Luca Moro on 24/01/2021.
  */
-@SpringBootApplication(exclude = ArtemisAutoConfiguration.class)
+@SpringBootApplication
 public class BeerInventoryApplication {
 
     public static void main(String[] args) {
